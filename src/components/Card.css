@@ -1,0 +1,9 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards__item {
+  flex-basis: 18%;
+  padding: 8px;
+  margin: 10px;
+}

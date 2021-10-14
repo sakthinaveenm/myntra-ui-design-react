@@ -1,0 +1,32 @@
+.right {
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  position: fixed;
+  right: 0;
+  bottom: 190px;
+  z-index: 1;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #545766;
+  color: #ffffff;
+  -webkit-transform: rotate(180deg);
+}
+
+.verti {
+  background-color: white;
+  color: black;
+  /* writing-mode: horizontal-tb; */
+  text-orientation: sideways;
+  -webkit-transform: rotate(90deg);
+
+  width: 90%;
+  height: 100%;
+  padding: 10px;
+}
+
+.wid {
+  width: 500px;
+}
